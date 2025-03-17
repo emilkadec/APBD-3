@@ -15,9 +15,9 @@ public class GasContainer:Container, IHazardNotifier
         base.Mass = base.Mass * 0.05;
     }
 
-    public void Notify(Exception ex)
+    public void Notify()
     {
-        throw new Exception("Occurence of hazardous event:" + base.SerialNumber, ex);
+        Console.WriteLine("Occurence of hazardous event:" + base.SerialNumber);
     }
     
     
