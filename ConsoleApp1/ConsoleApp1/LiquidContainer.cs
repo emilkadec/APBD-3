@@ -1,6 +1,8 @@
-﻿namespace ConsoleApp1;
+﻿using System.ComponentModel;
 
-public class LiquidContainer
+namespace ConsoleApp1;
+
+public class LiquidContainer:Container
 {
     
 }
