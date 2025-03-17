@@ -1,6 +1,8 @@
 ﻿namespace ConsoleApp1;
 
-public class OverfillException
+public class OverfillException:Exception
 {
-    
+    public OverfillException():base("OverfillException")
+    {
+    }
 }

@@ -2,7 +2,7 @@
 
 public class Container
 {
-    public int Mass1
+    public double Mass1
     {
         get => Mass;
         set => Mass = value;
@@ -19,13 +19,7 @@ public class Container
         get => TareWeight;
         set => TareWeight = value;
     }
-
-    public int Weight1
-    {
-        get => Weight;
-        set => Weight = value;
-    }
-
+    
     public int Depth1
     {
         get => Depth;
@@ -44,20 +38,18 @@ public class Container
         set => Payload = value;
     }
 
-    public int Mass;
+    public double Mass;
     public int Height;
     public int TareWeight;
-    public int Weight;
     public int Depth;
     public string SerialNumber;
     public int Payload;
 
-    public Container(int mass, int height, int tareWeight, int weight, int depth, string serialNumber, int payload)
+    public Container(double mass, int height, int tareWeight, int depth, string serialNumber, int payload)
     {
         Mass = mass;
         Height = height;
         TareWeight = tareWeight;
-        Weight = weight;
         Depth = depth;
         SerialNumber = serialNumber;
         Payload = payload;
@@ -67,16 +59,16 @@ public class Container
     {
     }
 
-    public void EmptyContainer()
+    public virtual void EmptyContainer()
     {
         Mass = 0;
     }
 
-    public void LoadContainer(int cargoWeight)
+    public virtual void LoadContainer(int cargoWeight)
     {
         if (cargoWeight > Payload)
         {
-            throw new Exception($"Cargo weight {cargoWeight} is greater than payload.");
+            throw new OverfillException();
         }
         else
         {
