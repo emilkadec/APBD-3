@@ -2,7 +2,7 @@
 
 public class OverfillException:Exception
 {
-    public OverfillException():base("OverfillException")
+    public OverfillException(String message):base("OverfillException")
     {
     }
 }

@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\s31431\\.nuget\\packages\\": {}
+    "/Users/emilka/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s31431\\Desktop\\APBD-3\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "/Users/emilka/Documents/GitHub/APBD-3/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\s31431\\Desktop\\APBD-3\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\s31431\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s31431\\Desktop\\APBD-3\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectPath": "/Users/emilka/Documents/GitHub/APBD-3/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+      "packagesPath": "/Users/emilka/.nuget/packages/",
+      "outputPath": "/Users/emilka/Documents/GitHub/APBD-3/ConsoleApp1/ConsoleApp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s31431\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/emilka/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/emilka/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

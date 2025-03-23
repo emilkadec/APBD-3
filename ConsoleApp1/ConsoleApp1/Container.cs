@@ -68,7 +68,7 @@ public class Container
     {
         if (cargoWeight > Payload)
         {
-            throw new OverfillException();
+            throw new OverfillException("Cargo weight cannot be greater than maxAllowedCargo");
         }
         else
         {
